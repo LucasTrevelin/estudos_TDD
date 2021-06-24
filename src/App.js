@@ -16,7 +16,7 @@ function handleIncrement(){
 function handleDecrement(){
   if(ilegal){
     refSpan.current.hidden = false;  
-  }else if(count == 1){
+  }else if(count === 1){
     setIlegal(true)
     console.log(ilegal)
     setCount(count - 1)
